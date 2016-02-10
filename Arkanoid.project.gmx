@@ -4,10 +4,27 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\snd_bound</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\spr_platform</sprite>
+    <sprite>sprites\spr_ball</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\main_background</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_platform</object>
+    <object>objects\obj_ball</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\main_room</room>
+  </rooms>
+  <constants number="1">
+    <constant name="PLATFORM_SPEED">20</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
